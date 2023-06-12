@@ -21,8 +21,13 @@ export const Home = () => {
         <div className={styles.building}>
           <span>
             We&apos;re <br/> building
+            <br/>
+            <span>
+              We&apos;re working on our new website.
+            </span>
           </span>
         </div>
+
 
         <div className={styles.contact}>
 

@@ -194,12 +194,24 @@ const onSubmit = async (data) => {
               <span className="third"></span>
               <span className="fourth"></span>
             </button>
-            <div>
+            <div className={styles.working}>
               <span>
                 We&apos;re working on our new website.
               </span>
             </div>
-            <div>
+            <div className={styles.copyright}>
+              <p>
+                All rights reserved &#169; 2023.
+              </p>
+            </div>
+            <div className={styles.foot}>
+              <span>
+                We&apos;re building.
+              </span>
+              <br/>
+              <span>
+                We&apos;re working on our new website.
+              </span>
               <p>
                 All rights reserved &#169; 2023.
               </p>
