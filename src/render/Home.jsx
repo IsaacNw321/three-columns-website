@@ -11,7 +11,7 @@ export const Home = () => {
         <img src={logo} alt="Three Columns Logo" className={styles.logo}/>
         <div>
           <span>
-            We're working on or website.
+            We&apos;re working on or website.
           </span>
         </div>
       </div>
@@ -20,7 +20,7 @@ export const Home = () => {
 
         <div className={styles.building}>
           <span>
-            We're <br/> building
+            We&apos;re <br/> building
           </span>
         </div>
 
@@ -41,8 +41,8 @@ export const Home = () => {
       </div>
 
       <Link to='/contact'>
-        <div class="center-con">    
-          <div class="round">
+        <div className="center-con">    
+          <div className="round">
               <span></span>
               <span></span>
               <span></span>
