@@ -28,33 +28,37 @@ export const Home = () => {
           </span>
         </div>
 
+        <span className={styles.line}></span>
 
         <div className={styles.contact}>
 
-          <div>
-            <span>
-              Contact Us!
-            </span>
+          <div className={styles.subContainer}>
+            <div>
+              <span className={styles.contactUs}>
+                Contact Us!
+              </span>
+            </div>
+            <div>
+              <Link to='/contact'>
+                <div className="center-con">    
+                  <div className="round">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>    
+                </div>
+              </Link>
+            </div>
           </div>
-
           <div>
             <p>
               All rights reserved &#169; 2023.
             </p>
           </div>
         </div>
-      </div>
 
-      <Link to='/contact'>
-        <div className="center-con">    
-          <div className="round">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-          </div>    
-        </div>
-      </Link>
+      </div>
     </div>
   )
 };
