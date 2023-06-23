@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/home.module.css';
+import "../styles/animations.css";
 import logo from '../images/logowithname.png';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +20,7 @@ export const Home = () => {
       <div className={styles.content}>
 
         <div className={styles.building}>
-          <span>
+          <span className="animated jackInTheBox">
             We&apos;re <br/> building
             <br/>
             <span>
@@ -33,7 +34,7 @@ export const Home = () => {
         <div className={styles.contact}>
 
           <div className={styles.subContainer}>
-            <div>
+            <div className="animatedContact shake">
               <span className={styles.contactUs}>
                 Contact Us!
               </span>

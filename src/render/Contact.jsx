@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import styles from '../styles/contact.module.css';
 import '../styles/input.css';
+import "../styles/animations.css";
 import logo from '../images/logowithname.png';
 import {useForm} from 'react-hook-form';
 import emailjs from "@emailjs/browser";
@@ -44,7 +45,7 @@ const onSubmit = async (data) => {
       <div className={styles.content}>
 
         <div className={styles.building}>
-          <span>
+          <span className="animatedTalk heartBeat">
             Let&apos;s talk!
           </span>
         </div>
