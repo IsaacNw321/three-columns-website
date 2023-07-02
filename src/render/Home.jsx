@@ -20,7 +20,7 @@ export const Home = () => {
       <div className={styles.content}>
 
         <div className={styles.building}>
-          <span className="animated jackInTheBox">
+          <span className="animated fadeInLeft">
             We&apos;re <br/> building
             <br/>
             <span>
@@ -34,12 +34,12 @@ export const Home = () => {
         <div className={styles.contact}>
 
           <div className={styles.subContainer}>
-            <div className="animatedContact shake">
+            <div className="animated fadeInLeft">
               <span className={styles.contactUs}>
                 Contact Us!
               </span>
             </div>
-            <div>
+            <div className="animated fadeInLeft">
               <Link to='/contact'>
                 <div className="center-con">    
                   <div className="round">

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Home } from './render/Home';
 import { Contact } from './render/Contact';
+import { ThankU } from './render/ThankU';
 import {
   Route,
   Routes,
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/thanku" element={<ThankU />} />
     </Routes>
   );
 }

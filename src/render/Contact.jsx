@@ -4,7 +4,11 @@ import '../styles/input.css';
 import "../styles/animations.css";
 import logo from '../images/logowithname.png';
 import {useForm} from 'react-hook-form';
+import { useNavigate } from 'react-router-dom';
 import emailjs from "@emailjs/browser";
+import { useState } from 'react';
+import { useEffect } from 'react';
+import { Spinner } from '../components/spinner/Spinner';
 
 export const Contact = () => {
 
@@ -14,8 +18,14 @@ export const Contact = () => {
     formState: { errors },
     reset
 } = useForm();
-  const form = useRef();
+const form = useRef();
+const [loader, setLoader] = useState(false);
+const navigate = useNavigate();
+useEffect(()=>{
+
+},[loader])
 const onSubmit = async (data) => {
+  setLoader(true);
   let info = {
       info: true
   };
@@ -23,15 +33,22 @@ const onSubmit = async (data) => {
 
   emailjs.sendForm('service_bz709pi', 'template_efiz5zm', form.current, 'g7X702yKWjWHyIfur')
     .then((res)=>{
+      setTimeout(() => {
+        setLoader(false);
+        navigate("/thanku");
+        reset();
+      }, 5 * 1000);
       console.log(res.text);
     },(err)=>{
       console.error(err)
     })
-  reset();
 };
 
   return (
-    <div className={styles.container}>
+    loader ?
+      <Spinner/>
+    :
+      <div className={styles.container}>
 
       <div className={styles.header}>
         <img src={logo} alt="Three Columns Logo" className={styles.logo}/>
@@ -45,7 +62,7 @@ const onSubmit = async (data) => {
       <div className={styles.content}>
 
         <div className={styles.building}>
-          <span className="animatedTalk heartBeat">
+          <span className="animated fadeInLeft">
             Let&apos;s talk!
           </span>
         </div>
@@ -229,6 +246,6 @@ const onSubmit = async (data) => {
 
         </div>
       </div>
-  </div>
+      </div>
   )
 };
