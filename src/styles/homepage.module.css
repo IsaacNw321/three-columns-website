@@ -56,6 +56,7 @@
     margin-left: 2.5vw;
     height: 77vh;
     border-top: rgb(79, 79, 79) 4px solid !important;
+    z-index: 3000;
 }
 .info2 {
     width: 100%;
@@ -96,4 +97,144 @@
     font-size: .8vw;
     padding-right: 5vw;
     font-weight: 200;
+}
+.container3 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(92.5vw - 5%);
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    height: 77vh;
+    z-index: 1500;
+    top: calc(120vh)
+}
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 150%;
+    border: #ffffff 2px solid !important;
+    border-radius: 50%;
+    left: 65vw;
+    bottom: -75vh;
+    z-index: 1;
+}
+.circles2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+    border: #ffffff 2px solid !important;
+    border-radius: 50%;
+    left: 70vw;
+    z-index: 1;
+}
+.circles3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 65%;
+    border: #ffffff 2px solid !important;
+    border-radius: 100%;
+    left: 70vw;
+    z-index: 1;
+}
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: calc(92.5vw - 5%);
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    height: 77vh;
+    border-top: rgb(79, 79, 79) 4px solid !important;
+    z-index: 3000;
+}
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+.div1 span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1.2vw;
+    font-weight: 200;
+    margin-top: 18%;
+    height: 82%;
+    width: 35%;
+}
+.servicesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+}
+.servicesContainer div {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 15%;
+    margin: .8vw;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: 100%;
+}
+.div2 h2 {
+    font-size: 3.5vw;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 25vh;
+}
+.div2 span {
+    font-size: 1vw;
+    position: absolute;
+    padding: 5vw;
+    bottom: 30vh;
+    font-weight: 200;
+}
+.div2 div {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 100%;
+}
+.div2 h4 {
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 6.8vh;
+    left: 1vw;
+    font-weight: 300;
+}
+.div3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+}
+.div3 img {
+    width: 80%;
+    height: 80%;
+
 }

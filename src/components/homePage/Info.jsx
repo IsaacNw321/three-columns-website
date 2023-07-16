@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from "../../styles/homepage.module.css";
 
-
 export const Info = () => {
   return (
     <div className={styles.container2}>
