@@ -9,3 +9,46 @@
     height: 77vh;
     border-top: rgb(79, 79, 79) 4px solid !important;
 }
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 25%;
+}
+.info h2 {
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+}
+.info span {
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top: 5vh;
+}
+.firstPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10vh;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.firstPhoto img {
+    width: 90%;
+    height: 80%;
+}
+.secondPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+    width: 25%;
+}
+.secondPhoto img {
+    width: 100%;
+    height: 80%;
+}
