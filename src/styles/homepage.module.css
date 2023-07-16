@@ -4,9 +4,10 @@
     align-items: center;
     flex-direction: row;
     width: calc(92.5vw - 5%);
+    margin-top: 2.5vh;
     margin-left: 2.5vw;
     height: 77vh;
-    border-top: rgb(79, 79, 79) 3px solid !important;
+    border-top: rgb(79, 79, 79) 4px solid !important;
 }
 .info {
     display: flex;
@@ -18,8 +19,8 @@
 }
 .info span {
     padding-top: 7.5vh;
-    font-size: 2vw;
-    font-weight: 500;
+    font-size: 1.5vw;
+    font-weight: 400;
     font-family: inherit;
 }
 .button {

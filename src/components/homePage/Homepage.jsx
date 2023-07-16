@@ -6,6 +6,7 @@ export const Homepage = () => {
   return (
     <Layout>
         <Content />
+        <Content />
     </Layout>
   )
 }
