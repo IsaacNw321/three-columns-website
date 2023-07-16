@@ -11,7 +11,7 @@
     z-index: 100000 !important;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgb(0, 0, 0, 0.9) 0%, rgba(0,0,0,1) 100%);
-    border-left: rgb(79, 79, 79) 2px solid !important;
+    border-left: rgb(79, 79, 79) 3px solid !important;
 
 }
 .containerOfContent {

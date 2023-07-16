@@ -2,7 +2,6 @@ import React from 'react';
 import styles from "../../styles/navbar.module.css";
 import { Aside } from './navbar/Aside';
 import { Navbar } from './navbar/Navbar';
-import Testing from "../homePage/Testing";
 
 export const Layout = ({ children }) => {
   return (
@@ -13,7 +12,7 @@ export const Layout = ({ children }) => {
         <div className={styles.contentContainer}>
             <Navbar />
             <div className={styles.containerOfContent}>
-            <Testing />
+            {children}
             </div>
         </div>
     </div>
