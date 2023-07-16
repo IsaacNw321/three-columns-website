@@ -14,6 +14,10 @@
     border-left: rgb(79, 79, 79) 2px solid !important;
 
 }
+.link {
+    text-decoration: none !important;
+    color: inherit
+}
 .containerOfContent {
     height: 100%;
     width: 89vw;
@@ -120,6 +124,8 @@
     width: 60%;
     height: 5%;
     margin-top: 6.5vh;
-    margin-left: 1vw
-
+    margin-left: 1vw;
+}
+.aside div {
+    cursor: pointer
 }
