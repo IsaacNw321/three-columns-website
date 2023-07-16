@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: calc(92.5vw - 5%);
+    margin-left: 2.5vw;
+    height: 77vh;
+    border-top: rgb(79, 79, 79) 3px solid !important;
+}
+.info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+}
+.info span {
+    padding-top: 7.5vh;
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: inherit;
+}
+.button {
+    margin-top: 4vh;
+    background-color: transparent;
+    color: inherit;
+    width: 6vw;
+    height: 4vh;
+    font-size: .7vw;
+}
+.button:hover {
+    background-color: #ffffff;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+.image img {
+    width: 90%;
+    height: 90%;
+}
