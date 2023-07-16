@@ -36,3 +36,30 @@
     font-size: 1vw;
     width: 70%;
 }
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: calc(92.5vw - 5%);
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    height: 77vh;
+}
+.asesoramiento {
+    display: flex;
+    width: 33%;
+    height: 100%;
+    font-size: 1vw;
+}
+.asesoramientoImg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 66%;
+    height: 100%;
+}
+.asesoramientoImg img {
+    width: 100%;
+    height: 85%;
+}
