@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: calc(92.5vw - 5%);
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    height: 77vh;
+    border-top: rgb(79, 79, 79) 4px solid !important;
+}
