@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: calc(92.5vw - 5%);
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    height: 77vh;
+    border-top: rgb(79, 79, 79) 4px solid !important;
+}
+.title {
+    display: flex;
+    align-items: center;
+    height: 70%;
+    padding-bottom: 35vh;
+    width: 25%;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 3vw;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 70%;
+    width: 60%;
+}
+.info p {
+    font-weight: 200;
+    font-size: 1.5vw;
+    text-align: justify;
+} .info span {
+    font-weight: 200;
+    font-size: 1vw;
+    width: 70%;
+}
