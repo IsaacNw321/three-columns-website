@@ -152,3 +152,27 @@
     width: 25%;
     height: 100%;
 }
+.bigPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+    height: 100%;
+    padding: 1px;
+}
+.bigPhoto img {
+    width: 100%;
+    height: 75%;
+}
+.littlePhoto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+    width: 25%;
+    height: 100%;
+}
+.littlePhoto img {
+    width: 100%;
+    height: 35%;
+}
