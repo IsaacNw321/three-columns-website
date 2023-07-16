@@ -46,3 +46,54 @@
     width: 90%;
     height: 90%;
 }
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(92.5vw - 5%);
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    height: 77vh;
+    border-top: rgb(79, 79, 79) 4px solid !important;
+}
+.info2 {
+    width: 100%;
+    height: 50%;
+    font-size: 1.2vw;
+    margin-top: 1.5vw;
+}
+.info2 p {
+    line-height: 2.5vw;
+    font-weight: 300;
+}
+.info2 p span {
+    font-weight: bold;
+}
+.competenciasList {
+    display: flex;
+    width: 45%;
+    height: 100%;
+}
+.competencias {
+    width: 100%;
+    height: 50%;
+    padding-left: 5vw;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.competencias span {
+    width: 40%;
+    font-size: 1vw;
+    font-weight: 300;
+    padding-top: 1vh;
+}
+.competencias ul {
+    width: 50%;
+    font-size: .8vw;
+    padding-right: 5vw;
+    font-weight: 200;
+}
