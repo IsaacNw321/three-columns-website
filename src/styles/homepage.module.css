@@ -207,21 +207,23 @@
 }
 .div2 span {
     font-size: 1vw;
-    position: absolute;
-    padding: 5vw;
-    bottom: 105vh;
+    position: relative;
+    padding: 3vw;
+    bottom: 18vh;
     font-weight: 200;
 }
 .div2 div {
     height: 50px;
     width: 50px;
     background-color: rgb(107, 107, 107);
+    position: relative;
+    bottom: 11vh;
     border-radius: 100%;
 }
 .div2 h4 {
     letter-spacing: 2px;
     position: relative;
-    bottom: 6.8vh;
+    bottom: 18vh;
     left: 1vw;
     font-weight: 300;
 }

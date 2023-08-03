@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "../../styles/portfolio.module.css";
 import img from "../../images/branding.jpg";
 
-export const Projects = () => {
+export const ProjectsPorfolio = () => {
   return (
     <div className={styles.container}>
         <div className={styles.info}>
