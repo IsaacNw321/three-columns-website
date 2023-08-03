@@ -17,18 +17,18 @@ export const Contact = () => {
     handleSubmit,
     formState: { errors },
     reset
-} = useForm();
-const form = useRef();
-const [loader, setLoader] = useState(false);
-const navigate = useNavigate();
-useEffect(()=>{
+  } = useForm();
+  const form = useRef();
+  const [loader, setLoader] = useState(false);
+  const navigate = useNavigate();
+  useEffect(()=>{
 
-},[loader])
-const onSubmit = async (data) => {
-  setLoader(true);
-  let info = {
-      info: true
-  };
+  },[loader])
+  const onSubmit = async (data) => {
+    setLoader(true);
+    let info = {
+        info: true
+    };
   data = {...data, ...info};
 
   emailjs.sendForm('service_bz709pi', 'template_efiz5zm', form.current, 'g7X702yKWjWHyIfur')
