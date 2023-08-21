@@ -17,13 +17,13 @@ export const Homepage = () => {
         <Content />
         <Info />
         <Branding />
-        <ProjectsPorfolio />
+        {/* <ProjectsPorfolio />
         <Testimonials />
         <Photos />
         <AboutUsInfo />
         <ImgComponent />
         <Projects />
-        <Footer />
+        <Footer /> */}
     </Layout>
   )
 }

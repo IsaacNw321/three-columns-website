@@ -36,6 +36,9 @@
     width: 100%;
     height: 18vh;
 }
+.divHidden {
+    display: none;
+}
 .logo {
     display: flex;
     flex-direction: column;
@@ -128,4 +131,84 @@
 }
 .aside div {
     cursor: pointer
+}
+.logo2 {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        border-left: none !important; 
+        width: 99vw;   
+        height: 12vh;
+        margin-left: 0;
+    }
+    .containerOfContent {
+        height: 100%;
+        width: 85vw;
+        top: 15vh;
+        position: relative;
+        z-index: 1;
+    }
+    .aside {
+        display: none;
+    }
+    .buttonsGroup {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; 
+        width: 100%;
+        height: 100%;
+        color: white;
+        font-size: 5vw;
+        font-weight: bolder;
+        position: relative;
+        top: 15vh;
+        /* left: 10vw; */
+    }
+    .logo2 span {
+        font-weight: 200;
+        margin-top: 10px;
+        font-size: 3vw;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 3vh;
+        width: 100%;
+    }
+    .divHidden {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        width: 80%;
+        height: 10vh !important;
+    }
+    .divHidden img {
+        width: 60px;
+        height: 60%;
+    }
+    .divHidden div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        background-color: white;
+    }
 }

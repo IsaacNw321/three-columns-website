@@ -1,11 +1,16 @@
 import React from 'react';
 import styles from "../../../styles/navbar.module.css";
 import { Link } from "react-router-dom";
+import loguito from "../../../images/logo.png";
 
 export const Navbar = () => {;
   return (
     <div className={styles.container}>
         <div className={styles.navbar}>
+            <div className={styles.divHidden}>
+                <img src={loguito} alt="Three Columns Studio."/>
+                <div></div>
+            </div>            
             <div className={styles.logo}>
                 Three Columns Studio&#169;
                 <br/>
